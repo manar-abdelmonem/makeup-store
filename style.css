@@ -1,0 +1,125 @@
+body{
+   margin: 0;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin:0;
+
+    border-radius: 0 0 50px 50px;
+    background-color: white;
+}
+
+.logo{
+
+    width: 100 px;
+    height: 5 px;
+    margin-left: 0;
+
+}
+h1{
+    margin: 0;
+    color: rgb(81, 18, 47);
+    font-size:  50px;;
+}
+
+.nav a{
+    color: rgb(129, 40, 74);
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 5px 15px;
+    
+    border-radius: 15 px;
+}
+.nav a:hover{
+    background-color: rgb(197, 153, 180);
+    border-radius: 15 px;
+}
+.nav button{
+   border:none ;
+   font-size: larger;
+   color: aliceblue;
+    border-radius: 1550 px;
+    background-color: rgb(168, 79, 116);
+}
+.landing-page{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom: 30px;
+    padding: 25px 50px;
+    border-radius: 0 0 50px 50px;
+    background-color: rgb(136, 72, 95);
+}
+ .img{
+    border-radius: 20px;
+    width:400px;
+    height: 400px;
+}
+.left-section{
+    width: 500px;
+   
+}
+.left-section span {
+    color: #dad0d3;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.left-section p{
+    font-size: 20 px;
+    color: white;
+}
+.trending{
+    background-color:white ;
+    padding:  25px 50px;
+   display:flex;
+   
+    justify-content: space-between;
+}
+.header span{
+       
+    margin: 50px;
+   margin-bottom: 10 px;
+   margin-top: 20px;
+    color: #88233a;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-style: italic;
+}
+.card{
+    gap: 15px;
+    margin-top: 20px;
+    padding-top:20px ;
+    width: 290px;
+    background-color: #74464f;
+    border-radius: 20px 20px 0 0;
+}
+.card img{
+    height: 300px;
+    border-radius: 20px 20px 0 0;    
+    width:250px;
+    margin-left:20px ;
+    margin-bottom: 20 px;
+}
+.card-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 25px;
+    font-size: large;
+    font-style:italic;
+    background-color: #74464f ;
+    width: 240px;
+    border-radius: 0 0 20px 20px;
+}
+.card-info img{
+    width: 50px;
+    height: 50px;
+}
+h2{
+    color: white;
+}
+h3{
+    color:white;
+}
